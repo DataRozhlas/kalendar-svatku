@@ -16,7 +16,7 @@ init = ->
     * day: 24 month: 11 reason: "Štědrý den"
     * day: 25 month: 11 reason: "1. svátek vánoční"
     * day: 26 month: 11 reason: "2. svátek vánoční"
-  years = [2010 to 2030].map (year) ->
+  years = [2010 to 2050].map (year) ->
     weekends = 0
     workdays = 0
     svatkyData = []
